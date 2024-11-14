@@ -1,5 +1,0 @@
-Question 8
-What is the difference between the num and double data types in Dart?
-
-بتقبل اي رقم سواء عشري او صحيح num الفرق ببساطة هو ان <-----
-int بتقبل ارقام عشريه وايضا بتقبل الرقم الصحيح لو هتاخده مباشره مش عن طريق متغير محجوز بنوع  double  <------
