@@ -16,9 +16,9 @@ void printWeatherDetails(
   if (weatherData.containsKey(city)) {
     Map<String, dynamic> details = weatherData[city]!;
     print('Weather Report for $city:');
-    print('Temperature: ${details?['temperature']}°C');
-    print('Humidity: ${details?['humidity']}%');
-    print('Condition: ${details?['condition']}');
+    print('Temperature: ${details['temperature']}°C');
+    print('Humidity: ${details['humidity']}%');
+    print('Condition: ${details['condition']}');
   } else {
     print('Weather data for $city not found.');
   }
