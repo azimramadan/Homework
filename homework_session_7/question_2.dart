@@ -8,19 +8,12 @@
 import 'dart:io';
 
 void main() {
-  // طلب إدخال النص من المستخدم
   print("Enter a string:");
   String? input = stdin.readLineSync();
   Map<String, int> vowelCounts = countVowels(input!);
+  print(vowelCounts);
+}
 
-    // طباعة النتائج
-    print("Vowel counts:");
-    vowelCounts.forEach((vowel, count) {
-      print("$vowel: $count");
-    });
-  } else {
-    print("Invalid input. Please enter a non-empty string.");
-  }
 Map<String, int> countVowels(String input) {
   List<String> vowels = ['a', 'e', 'i', 'o', 'u'];
   Map<String, int> counts = {
