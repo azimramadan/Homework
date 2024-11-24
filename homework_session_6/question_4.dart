@@ -14,11 +14,19 @@ class BankAccount {
   double balance;
   BankAccount(this.name, this.balance);
   void deposit(double amount) {
-    balance += amount;
+    if (amount > 0) {
+      balance += amount;
+    } else {
+      print('error');
+    }
   }
 
   void withdraw(double amount) {
-    balance -= amount;
+    if (amount < 0) {
+      balance -= amount;
+    } else {
+      print('error');
+    }
   }
 
   void getDetails() {
@@ -28,7 +36,7 @@ class BankAccount {
 }
 
 void main() {
-  BankAccount myAccount = BankAccount('أحمد علي', 1000.00);
+  BankAccount myAccount = BankAccount('abdelazim', 999999999999999);
   myAccount.deposit(500.00);
   myAccount.withdraw(200.00);
   myAccount.withdraw(1500.00);
