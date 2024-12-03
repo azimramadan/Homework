@@ -1,2 +1,3 @@
-#1 (team_member_profile_ui) https://github.com/azimramadan/team_member_profile_ui.git
-#2 (bmi_calculator_app) https://github.com/azimramadan/bmi_calculator_app.git
+#1 (team-member-profile-ui) https://github.com/azimramadan/team-member-profile-ui.git
+#2 (bmi-calculator-app) https://github.com/azimramadan/bmi-calculator-app.git
+#3 (fresh-fruits-app) https://github.com/azimramadan/fresh-fruits-app.git
