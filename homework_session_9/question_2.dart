@@ -33,7 +33,23 @@ class Car extends Vehicle {
   }
 
   static double totalMileage(List<Car> cars) {
-    double totalMileage;cars.
-    return 1;
+    double totalMileage = 0;
+    for (var element in cars) {
+      totalMileage += element.mileage;
+    }
+    return totalMileage;
   }
+}
+
+void main() {
+  List<Car> cars = [
+    Car(125, 'brand', 2024),
+    Car(100, 'brand', 2024),
+    Car(178, 'brand', 2024),
+    Car(210, 'brand', 2024)
+  ];
+  for (var element in cars) {
+    element.describe();
+  }
+  print(Car.totalMileage(cars));
 }
