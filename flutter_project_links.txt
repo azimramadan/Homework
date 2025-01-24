@@ -2,3 +2,8 @@
 #2 (bmi-calculator-app) https://github.com/azimramadan/bmi-calculator-app.git
 #3 (fresh-fruits-app) https://github.com/azimramadan/fresh-fruits-app.git
 #4 (quiz-app) https://github.com/azimramadan/quiz-app
+#5 (QR-code-app) https://github.com/azimramadan/qr-master
+#6 (news-app) https://github.com/azimramadan/flutter-news-app
+#7 (weather-app) https://github.com/azimramadan/weather-app
+#8 (toku-app) https://github.com/azimramadan/toku-app
+#9 (notes-app) https://github.com/azimramadan/notes-app
